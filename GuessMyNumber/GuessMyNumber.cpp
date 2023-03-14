@@ -10,7 +10,7 @@ int main()
 {
 
 	Intentos = 0;
-	Azar = 1 + (rand() % 99);
+	Azar = 1 + (rand() % 199);
 	system("cls");
 	if (Repetir == 0)
 	{
@@ -63,7 +63,8 @@ int main()
 
 void Repetidor()
 {
-	cout << "Elija un numero entre el 1 y 100" << endl;
+	cout << "Elija un numero entre el 1 y 200" << endl;
+	cout << Azar << endl;
 	cin >> Valor;
 	Intentos++;
 
