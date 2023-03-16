@@ -33,7 +33,7 @@ int main()
 	cout << endl << endl << endl;
 
 
-	if (Intentos == 2)
+	if (Intentos == 1)
 	{
 		cout << "PERO QUEEEEEE" << endl;
 		cout << "Encerio ha ganado tan facil" << endl;
